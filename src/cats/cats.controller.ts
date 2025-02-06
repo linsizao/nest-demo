@@ -12,7 +12,7 @@ import {
   Delete,
   Res,
 } from '@nestjs/common';
-import { CreateCatDto } from './dto';
+import { CreateCatDto } from './create-cat.dto';
 
 @Controller('cats')
 export class CatsController {
